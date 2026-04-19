@@ -83,11 +83,10 @@ html,body{height:100%;background:var(--bg);color:var(--text);
 .face-card svg{transition:color .18s;color:var(--muted)}
 .face-card.sel svg,.face-card:active svg{color:var(--amber)}
 .face-icon {
-  filter: brightness(0) saturate(100%) invert(75%)
-          sepia(60%) saturate(400%) hue-rotate(5deg);
-  opacity: 0.85;
   display: block;
-  margin: 0 auto var(--space-3);
+  margin: 0 auto 12px;
+  width: 80px;
+  height: 100px;
 }
 .face-card.sel .face-icon { opacity: 1; }
 .face-label{
@@ -290,25 +289,25 @@ input.err{border-color:#e05252}
 
     <!-- OVAL -->
     <div class="face-card" onclick="pickFace('oval',this)">
-      <img src="/Zoca-AI-Lead-Magnet/images/oval.png" alt="Oval face shape" width="80" height="100" loading="lazy" class="face-icon">
+      <img src="./images/oval.png" alt="Oval face shape" width="80" height="100" loading="lazy" class="face-icon">
       <span class="face-label">Oval</span>
     </div>
 
     <!-- ROUND -->
     <div class="face-card" onclick="pickFace('round',this)">
-      <img src="/Zoca-AI-Lead-Magnet/images/round.png" alt="Round face shape" width="80" height="100" loading="lazy" class="face-icon">
+      <img src="./images/round.png" alt="Round face shape" width="80" height="100" loading="lazy" class="face-icon">
       <span class="face-label">Round</span>
     </div>
 
     <!-- SQUARE -->
     <div class="face-card" onclick="pickFace('square',this)">
-      <img src="/Zoca-AI-Lead-Magnet/images/square.png" alt="Square face shape" width="80" height="100" loading="lazy" class="face-icon">
+      <img src="./images/square.png" alt="Square face shape" width="80" height="100" loading="lazy" class="face-icon">
       <span class="face-label">Square</span>
     </div>
 
     <!-- JAWLINE-HEAVY -->
     <div class="face-card" onclick="pickFace('jawline',this)">
-      <img src="/Zoca-AI-Lead-Magnet/images/jawline.png" alt="Jawline-Heavy face shape" width="80" height="100" loading="lazy" class="face-icon">
+      <img src="./images/jawline.png" alt="Jawline-Heavy face shape" width="80" height="100" loading="lazy" class="face-icon">
       <span class="face-label">Jawline-Heavy</span>
     </div>
 
